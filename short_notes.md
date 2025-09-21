@@ -1,0 +1,7 @@
+For this project, I follow step by step development approach. First, I make backend foundation with database design, FastAPI routes, and data feed setup using yfinance. Then I add main trading strategies like SMA crossover, RSI, and Bollinger Band. After that, I build backtesting engine to test strategy on old data and paper trading for live simulation. Later, I add advanced part like WebSocket live data, risk management rules, and Docker for deployment. Finally, I polish UI with React dashboard, add logging, monitoring, and full documentation.
+
+Technologies I use are FastAPI for backend API, PostgreSQL for storing trades and performance, Redis for caching, and Docker for deployment. For frontend, I use React with Tailwind CSS and Recharts for charts. Data source is yfinance, which give both live and historical stock/crypto data. Nginx used for proxy and load balancing.
+
+Main challenge was real-time data handling. WebSocket sometimes unstable, so I create fallback with HTTP and monitor connection health. Another challenge was processing large data for backtesting. I solve this using vectorized operations and optimized queries. Risk management also tricky, because need to add stop loss, take profit without slowing performance.
+
+I learn many things: how trading strategies behave on real market data, importance of risk control, and how to design full system end-to-end. I also practice Docker deployment and database optimization. This project give me strong experience in both technical and finance side.
