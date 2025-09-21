@@ -292,7 +292,4 @@ Built for the JarNox Algo Trading Internship application.
 
 ---
 
-*This project demonstrates comprehensive understanding of algorithmic trading systems, real-time data processing, risk management, and full-stack development. The system is production-ready with proper error handling, logging, and monitoring capabilities.*
-# algo-trading
-# algo-trading
-# algo-trading
+
